@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-
+st.write("## Connect me on Linkedin [Link](https://www.linkedin.com/in/mohammadwasiq0/)")
+st.write("## Follow me on Github [Link](https://github.com/mohammadwasiq0)")
 
 # loading the data using the address from os
 basedir = os.path.dirname(__file__)
@@ -16,7 +17,7 @@ df = pd.read_csv(filename)
 # making two columns left and right
 left, right = st.columns(2)
 
-st.title('Diamonds Price Prediction & Historical EDA')
+st.title('Diamonds Price Prediction & Historical EDA by Mohamamd Wasiq')
 st.header('**Problem Statement**')
 'The diamond processing firm wants a model that can predict the price of the model based on its properties such as carat, color, cut, clarity and its size.'
 st.subheader('EDA of the diamonds dataset')
